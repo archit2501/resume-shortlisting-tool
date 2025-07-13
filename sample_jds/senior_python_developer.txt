@@ -1,0 +1,69 @@
+Senior Python Developer
+
+Company: TechInnovate Solutions
+Location: New York, NY (Remote available)
+Employment Type: Full-time
+
+Job Summary:
+We are seeking an experienced Python developer to join our growing engineering team. The ideal candidate will have strong expertise in Python development, web frameworks, and modern software development practices.
+
+Key Responsibilities:
+• Develop and maintain web applications using Python and modern frameworks
+• Design and implement RESTful APIs and microservices
+• Collaborate with frontend developers, designers, and product managers
+• Write clean, maintainable, and well-documented code
+• Participate in code reviews and technical discussions
+• Troubleshoot and debug complex applications
+• Contribute to architecture decisions and technical roadmap
+
+Required Qualifications:
+• 3+ years of professional Python development experience
+• Strong experience with Django or Flask frameworks
+• Proficiency in SQL databases (PostgreSQL, MySQL)
+• Experience with RESTful API development and integration
+• Knowledge of Git version control and collaborative development
+• Understanding of software development best practices (testing, CI/CD)
+• Bachelor's degree in Computer Science, Engineering, or related field
+• Experience with Agile/Scrum development methodologies
+
+Preferred Qualifications:
+• Experience with AWS cloud services (EC2, S3, RDS, Lambda)
+• Knowledge of Docker and containerization technologies
+• Familiarity with frontend technologies (React, Vue.js, or Angular)
+• Experience with data analysis libraries (pandas, numpy, scipy)
+• Understanding of machine learning concepts and frameworks
+• Knowledge of Redis, Elasticsearch, or other NoSQL databases
+• Experience with monitoring and logging tools
+• Previous experience in fintech or e-commerce industries
+
+Technical Skills We Value:
+• Python 3.7+
+• Django/Flask
+• PostgreSQL/MySQL
+• Redis
+• Docker
+• AWS
+• Git
+• Linux/Unix
+• JavaScript
+• HTML/CSS
+• REST APIs
+• GraphQL
+• Microservices
+• Unit Testing
+• CI/CD pipelines
+
+What We Offer:
+• Competitive salary ($90,000 - $130,000 based on experience)
+• Comprehensive health, dental, and vision insurance
+• 401(k) with company matching
+• Flexible work arrangements and remote work options
+• Professional development budget ($2,000 annually)
+• Modern development tools and equipment
+• Collaborative and innovative work environment
+• Opportunity to work on cutting-edge projects
+
+Application Process:
+Please submit your resume along with a cover letter highlighting your Python experience and relevant projects. Include links to your GitHub profile or portfolio if available.
+
+We are an equal opportunity employer committed to diversity and inclusion.

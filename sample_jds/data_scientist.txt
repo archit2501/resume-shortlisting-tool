@@ -1,0 +1,61 @@
+Data Scientist
+
+Company: DataTech Analytics
+Location: San Francisco, CA
+Employment Type: Full-time
+
+Job Description:
+We are looking for a talented Data Scientist to join our analytics team. You will be responsible for analyzing large datasets, building predictive models, and providing actionable insights to drive business decisions.
+
+Responsibilities:
+• Analyze complex datasets to identify trends and patterns
+• Develop and deploy machine learning models
+• Create data visualizations and dashboards
+• Collaborate with stakeholders to understand business requirements
+• Present findings to both technical and non-technical audiences
+• Implement statistical analysis and hypothesis testing
+• Work with big data technologies and cloud platforms
+
+Required Skills:
+• Master's degree in Data Science, Statistics, Computer Science, or related field
+• 2+ years of experience in data science or analytics
+• Proficiency in Python and R programming languages
+• Experience with machine learning libraries (scikit-learn, TensorFlow, PyTorch)
+• Strong knowledge of statistics and statistical modeling
+• Experience with SQL and database management
+• Data visualization skills (Tableau, Power BI, matplotlib, seaborn)
+• Knowledge of Jupyter notebooks and version control (Git)
+
+Preferred Skills:
+• PhD in a quantitative field
+• Experience with big data technologies (Hadoop, Spark)
+• Cloud platform experience (AWS, Azure, GCP)
+• Knowledge of deep learning and neural networks
+• Experience with A/B testing and experimental design
+• Natural Language Processing (NLP) experience
+• Time series analysis and forecasting
+• Knowledge of Docker and MLOps practices
+
+Technologies:
+• Python
+• R
+• SQL
+• Tableau
+• scikit-learn
+• TensorFlow
+• PyTorch
+• Pandas
+• NumPy
+• Matplotlib
+• Jupyter
+• Git
+• AWS/Azure
+• Hadoop
+• Spark
+
+Benefits:
+• Competitive salary ($100,000 - $150,000)
+• Stock options
+• Health insurance
+• Flexible working hours
+• Professional development opportunities

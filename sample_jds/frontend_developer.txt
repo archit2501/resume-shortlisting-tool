@@ -1,0 +1,71 @@
+Frontend Developer
+
+Company: WebCraft Studios
+Location: Austin, TX (Hybrid)
+Employment Type: Full-time
+
+About the Role:
+Join our creative team as a Frontend Developer where you'll build engaging user interfaces and exceptional user experiences. You'll work closely with designers and backend developers to create modern, responsive web applications.
+
+Key Responsibilities:
+• Develop responsive web applications using modern JavaScript frameworks
+• Implement pixel-perfect designs from Figma/Adobe XD mockups
+• Optimize applications for maximum speed and scalability
+• Collaborate with UX/UI designers and backend developers
+• Maintain and improve existing codebase
+• Ensure cross-browser compatibility and mobile responsiveness
+• Participate in code reviews and maintain coding standards
+• Stay updated with latest frontend technologies and best practices
+
+Required Qualifications:
+• 2+ years of frontend development experience
+• Strong proficiency in HTML5, CSS3, and JavaScript (ES6+)
+• Experience with React.js or Vue.js
+• Knowledge of responsive design principles
+• Familiarity with CSS preprocessors (Sass, Less)
+• Experience with version control systems (Git)
+• Understanding of RESTful APIs and AJAX
+• Cross-browser testing and debugging skills
+
+Preferred Qualifications:
+• Experience with TypeScript
+• Knowledge of state management libraries (Redux, Vuex)
+• Familiarity with build tools (Webpack, Vite, Parcel)
+• Experience with CSS frameworks (Bootstrap, Tailwind CSS)
+• Understanding of accessibility standards (WCAG)
+• Knowledge of testing frameworks (Jest, Cypress)
+• Experience with Node.js and npm/yarn
+• Familiarity with design tools (Figma, Adobe Creative Suite)
+• Understanding of SEO best practices
+• Experience with Progressive Web Apps (PWA)
+
+Technical Stack:
+• JavaScript/TypeScript
+• React.js/Vue.js
+• HTML5/CSS3
+• Sass/SCSS
+• Bootstrap/Tailwind CSS
+• Webpack/Vite
+• Git
+• REST APIs
+• Jest/Cypress
+• Figma
+
+Nice to Have:
+• Next.js or Nuxt.js experience
+• GraphQL knowledge
+• Docker basics
+• CI/CD pipeline experience
+• Mobile app development (React Native)
+• Backend development knowledge
+• UX/UI design skills
+
+What We Offer:
+• Competitive salary ($65,000 - $95,000)
+• Health and dental insurance
+• Flexible work schedule
+• Remote work options
+• Learning and development budget
+• Modern development environment
+• Collaborative team culture
+• Opportunity to work on diverse projects

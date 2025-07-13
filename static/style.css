@@ -1,0 +1,288 @@
+/* Custom CSS for Resume Shortlisting Tool */
+
+:root {
+    --primary-color: #0066cc;
+    --success-color: #28a745;
+    --warning-color: #ffc107;
+    --danger-color: #dc3545;
+    --info-color: #17a2b8;
+    --dark-color: #343a40;
+    --light-color: #f8f9fa;
+}
+
+body {
+    background-color: #f5f7fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    border-radius: 12px 12px 0 0 !important;
+    font-weight: 600;
+    padding: 1.25rem;
+}
+
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 0.6rem 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.btn-lg {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+}
+
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 2px solid #e9ecef;
+    padding: 0.75rem 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 0.2rem rgba(0, 102, 204, 0.25);
+}
+
+.form-label {
+    font-weight: 600;
+    color: var(--dark-color);
+    margin-bottom: 0.75rem;
+}
+
+.form-text {
+    font-size: 0.875rem;
+    color: #6c757d;
+    margin-top: 0.5rem;
+}
+
+/* Match Score Display */
+.display-1 {
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Skills Display */
+.skill-tag {
+    display: inline-block;
+    background-color: #e3f2fd;
+    color: #1976d2;
+    padding: 0.4rem 0.8rem;
+    margin: 0.2rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border: 1px solid #bbdefb;
+}
+
+.skill-tag.matched {
+    background-color: #e8f5e8;
+    color: #2e7d32;
+    border-color: #c8e6c9;
+}
+
+.skill-tag.missing {
+    background-color: #fff3e0;
+    color: #f57c00;
+    border-color: #ffcc02;
+}
+
+/* Progress Bars */
+.progress {
+    height: 1.5rem;
+    border-radius: 10px;
+    background-color: #e9ecef;
+}
+
+.progress-bar {
+    border-radius: 10px;
+    font-weight: 600;
+    transition: width 0.6s ease;
+}
+
+/* Tables */
+.table {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table th {
+    background-color: var(--dark-color);
+    color: white;
+    font-weight: 600;
+    border: none;
+    padding: 1rem;
+}
+
+.table td {
+    padding: 1rem;
+    vertical-align: middle;
+    border-color: #e9ecef;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+/* Badge Styling */
+.badge {
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+}
+
+/* Alert Styling */
+.alert {
+    border: none;
+    border-radius: 10px;
+    padding: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.alert-heading {
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+/* Loading Animation */
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    border-width: 0.3em;
+}
+
+/* Modal Styling */
+.modal-content {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    border-bottom: 2px solid #e9ecef;
+    padding: 1.5rem;
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.modal-footer {
+    border-top: 2px solid #e9ecef;
+    padding: 1.5rem;
+}
+
+/* Contact Info Display */
+.contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+    background-color: #f8f9fa;
+    border-radius: 6px;
+}
+
+.contact-item i {
+    margin-right: 0.75rem;
+    width: 20px;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .display-1 {
+        font-size: 2.5rem;
+    }
+    
+    .card-body {
+        padding: 1rem;
+    }
+    
+    .btn-lg {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+    
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+}
+
+/* Animation Classes */
+.fade-in {
+    animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.slide-up {
+    animation: slideUp 0.6s ease-out;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Score Color Coding */
+.score-excellent { color: #28a745; }
+.score-good { color: #17a2b8; }
+.score-fair { color: #ffc107; }
+.score-poor { color: #dc3545; }
+
+/* Utility Classes */
+.text-shadow {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.border-rounded {
+    border-radius: 10px;
+}
+
+.shadow-sm {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom File Upload Styling */
+.form-control[type="file"] {
+    padding: 0.5rem;
+}
+
+.form-control[type="file"]::-webkit-file-upload-button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.form-control[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #0056b3;
+}
