@@ -238,8 +238,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **🐛 Issues**: [GitHub Issues](https://github.com/archit2501/resume-shortlisting-tool/issues)
 - **💡 Feature Requests**: [GitHub Discussions](https://github.com/archit2501/resume-shortlisting-tool/discussions)
-- **📧 Email**: archit.jain@example.com
-- **💼 LinkedIn**: [Archit Jain](https://linkedin.com/in/archit-jain)
+- **📧 Email**: architjain2501@gmail.com
+- **💼 LinkedIn**: [Archit Jain](https://linkedin.com/in/architjain01)
 
 ## ⭐ Show Your Support
 
