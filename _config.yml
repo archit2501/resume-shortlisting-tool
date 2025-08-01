@@ -1,0 +1,52 @@
+# GitHub Pages Configuration
+# This file enables GitHub Pages for the repository
+
+# Build settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Site settings
+title: AI-Powered Resume Shortlisting Tool
+description: Advanced AI tool for automated resume analysis and job matching by Archit Jain
+author: Archit Jain
+email: architjain2501@gmail.com
+github_username: archit2501
+
+# SEO settings
+lang: en
+timezone: Asia/Kolkata
+
+# Navigation
+navigation:
+  - title: Home
+    url: "#home"
+  - title: Features
+    url: "#features"
+  - title: Demo
+    url: "#demo"
+  - title: About
+    url: "#about"
+  - title: Contact
+    url: "#contact"
+
+# Social links
+social:
+  github: https://github.com/archit2501
+  email: mailto:architjain2501@gmail.com
+  linkedin: https://linkedin.com/in/archit2501
+
+# Analytics (optional)
+google_analytics: # Add your Google Analytics ID here if needed
+
+# Exclude from processing
+exclude:
+  - README.md
+  - .gitignore
+  - requirements.txt
+  - app.py
+  - "*.py"
+  - __pycache__/
+  - .venv/
+  - uploads/

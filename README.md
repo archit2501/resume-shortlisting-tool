@@ -3,7 +3,11 @@
 [![Python](https://img.shields.io/badge/Python-3.7+-blue.svg)](https://python.org)
 [![Flask](https://img.shields.io/badge/Flask-2.3+-green.svg)](https://flask.palletsprojects.com/)
 [![License](https://img.shields.io/badge/License-MIT-red.svg)](LICENSE)
-[![Demo](https://img.shields.io/badge/Demo-Live-orange.svg)](#demo)
+[![Demo](https://img.shields.io/badge/Demo-Live-orange.svg)](https://archit2501.github.io/resume-shortlisting-tool/)
+[![Website](https://img.shields.io/badge/Website-Live-brightgreen.svg)](https://archit2501.github.io/resume-shortlisting-tool/)
+
+## 🌐 Live Website
+**🚀 Experience the tool online:** [https://archit2501.github.io/resume-shortlisting-tool/](https://archit2501.github.io/resume-shortlisting-tool/)
 
 ## Overview
 This project provides an AI-powered tool that analyzes resumes and job descriptions to determine the best fit between candidates and job roles. It uses advanced NLP techniques to compute similarity scores, identify matched skills, and highlight missing qualifications.

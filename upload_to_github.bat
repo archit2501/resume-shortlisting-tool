@@ -35,7 +35,7 @@ git config user.email "architjain2501@gmail.com"
 
 echo.
 echo Step 5: Creating commit...
-git commit -m "Initial commit: AI-powered resume shortlisting tool by Archit Jain"
+git commit -m "Added GitHub Pages website and updated project for web deployment"
 
 echo.
 echo Step 6: Pushing to GitHub...

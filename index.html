@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Resume Shortlisting Tool | Archit Jain</title>
+    <meta name="description" content="Advanced AI tool for automated resume analysis and job matching by Archit Jain">
+    <meta name="keywords" content="AI, Resume Analysis, Job Matching, Machine Learning, NLP, Python">
+    <meta name="author" content="Archit Jain">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="AI-Powered Resume Shortlisting Tool">
+    <meta property="og:description" content="Advanced AI tool for automated resume analysis and job matching">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://archit2501.github.io/resume-shortlisting-tool/">
+    <meta property="og:image" content="https://archit2501.github.io/resume-shortlisting-tool/screenshots/main-interface.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/web-style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="fas fa-robot me-2"></i>AI Resume Tool
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#demo">Demo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="display-4 fw-bold text-white mb-4">
+                            AI-Powered Resume Shortlisting Tool
+                        </h1>
+                        <p class="lead text-light mb-4">
+                            Advanced machine learning algorithms to automatically analyze resumes, 
+                            extract key information, and match candidates with job requirements.
+                        </p>
+                        <div class="hero-badges mb-4">
+                            <span class="badge bg-success me-2">AI/ML</span>
+                            <span class="badge bg-info me-2">NLP</span>
+                            <span class="badge bg-warning me-2">Python</span>
+                            <span class="badge bg-secondary">Flask</span>
+                        </div>
+                        <div class="hero-buttons">
+                            <a href="#demo" class="btn btn-light btn-lg me-3">
+                                <i class="fas fa-play me-2"></i>Try Demo
+                            </a>
+                            <a href="https://github.com/archit2501/resume-shortlisting-tool" 
+                               class="btn btn-outline-light btn-lg" target="_blank">
+                                <i class="fab fa-github me-2"></i>View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image">
+                        <img src="screenshots/main-interface.png" 
+                             alt="AI Resume Tool Interface" 
+                             class="img-fluid rounded shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">Key Features</h2>
+                    <p class="lead text-muted">Powerful AI capabilities for modern recruitment</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <h4>Smart Resume Parsing</h4>
+                        <p>Advanced NLP algorithms extract and structure information from PDF and text resumes automatically.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h4>Intelligent Job Matching</h4>
+                        <p>AI-powered matching engine calculates compatibility scores between resumes and job descriptions.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h4>Detailed Analytics</h4>
+                        <p>Comprehensive scoring with skill matching, experience analysis, and recommendation insights.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <h4>Batch Processing</h4>
+                        <p>Process multiple resumes simultaneously for efficient large-scale recruitment operations.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-download"></i>
+                        </div>
+                        <h4>Export Results</h4>
+                        <p>Download analysis results in CSV format for further processing and decision making.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card h-100">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>Responsive Design</h4>
+                        <p>Modern, mobile-friendly interface that works seamlessly across all devices and platforms.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">Interactive Demo</h2>
+                    <p class="lead text-muted">Experience the AI-powered resume analysis in action</p>
+                </div>
+            </div>
+            
+            <!-- Demo Interface -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="demo-container">
+                        <div class="card shadow-lg">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="mb-0"><i class="fas fa-robot me-2"></i>AI Resume Analyzer</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <h6>Upload Resume</h6>
+                                        <div class="upload-area" id="resumeUpload">
+                                            <i class="fas fa-cloud-upload-alt"></i>
+                                            <p>Click to upload or drag & drop resume</p>
+                                            <input type="file" id="resumeFile" accept=".pdf,.txt,.doc,.docx" hidden>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h6>Job Description</h6>
+                                        <textarea id="jobDescription" class="form-control" rows="5" 
+                                                  placeholder="Paste job description here..."></textarea>
+                                        <div class="mt-2">
+                                            <select id="sampleJobs" class="form-select">
+                                                <option value="">Select sample job...</option>
+                                                <option value="data_scientist">Data Scientist</option>
+                                                <option value="frontend_developer">Frontend Developer</option>
+                                                <option value="python_developer">Python Developer</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="text-center mt-4">
+                                    <button id="analyzeBtn" class="btn btn-primary btn-lg" disabled>
+                                        <i class="fas fa-cog me-2"></i>Analyze Resume
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Results Display -->
+                        <div id="resultsContainer" class="mt-4" style="display: none;">
+                            <div class="card shadow">
+                                <div class="card-header bg-success text-white">
+                                    <h5 class="mb-0"><i class="fas fa-chart-bar me-2"></i>Analysis Results</h5>
+                                </div>
+                                <div class="card-body">
+                                    <div id="analysisResults"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">How It Works</h2>
+                    <p class="lead text-muted">Advanced AI pipeline for intelligent resume analysis</p>
+                </div>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step text-center">
+                        <div class="step-number">1</div>
+                        <i class="fas fa-upload step-icon"></i>
+                        <h5>Upload Resume</h5>
+                        <p>Upload PDF or text resume files for processing</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step text-center">
+                        <div class="step-number">2</div>
+                        <i class="fas fa-brain step-icon"></i>
+                        <h5>AI Processing</h5>
+                        <p>NLP algorithms extract and analyze key information</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step text-center">
+                        <div class="step-number">3</div>
+                        <i class="fas fa-search step-icon"></i>
+                        <h5>Job Matching</h5>
+                        <p>AI compares skills and experience with job requirements</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="process-step text-center">
+                        <div class="step-number">4</div>
+                        <i class="fas fa-chart-pie step-icon"></i>
+                        <h5>Get Results</h5>
+                        <p>Receive detailed match scores and recommendations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="display-5 fw-bold mb-4">About This Project</h2>
+                    <p class="lead">
+                        This AI-powered resume shortlisting tool represents the intersection of 
+                        machine learning, natural language processing, and modern web development.
+                    </p>
+                    <p>
+                        Built with Python, Flask, and advanced NLP libraries, this tool demonstrates 
+                        practical applications of AI in human resources and recruitment processes.
+                    </p>
+                    
+                    <h4 class="mt-4">Technologies Used:</h4>
+                    <div class="tech-stack">
+                        <span class="tech-badge">Python</span>
+                        <span class="tech-badge">Flask</span>
+                        <span class="tech-badge">scikit-learn</span>
+                        <span class="tech-badge">spaCy</span>
+                        <span class="tech-badge">NLTK</span>
+                        <span class="tech-badge">PyPDF2</span>
+                        <span class="tech-badge">Bootstrap</span>
+                        <span class="tech-badge">JavaScript</span>
+                    </div>
+                    
+                    <div class="mt-4">
+                        <a href="https://github.com/archit2501/resume-shortlisting-tool" 
+                           class="btn btn-primary me-3" target="_blank">
+                            <i class="fab fa-github me-2"></i>View Source Code
+                        </a>
+                        <a href="https://github.com/archit2501" 
+                           class="btn btn-outline-primary" target="_blank">
+                            <i class="fab fa-github me-2"></i>More Projects
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image">
+                        <img src="screenshots/WhatsApp Image 2025-07-09 at 00.41.15_7bc00f19.jpg" 
+                             alt="Project Screenshot" 
+                             class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="display-5 fw-bold">Get In Touch</h2>
+                    <p class="lead text-muted">Let's connect and discuss opportunities</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-info text-center">
+                        <div class="row g-4">
+                            <div class="col-md-4">
+                                <div class="contact-item">
+                                    <i class="fab fa-github contact-icon"></i>
+                                    <h5>GitHub</h5>
+                                    <a href="https://github.com/archit2501" target="_blank">@archit2501</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="contact-item">
+                                    <i class="fas fa-envelope contact-icon"></i>
+                                    <h5>Email</h5>
+                                    <a href="mailto:architjain2501@gmail.com">architjain2501@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="contact-item">
+                                    <i class="fab fa-linkedin contact-icon"></i>
+                                    <h5>LinkedIn</h5>
+                                    <a href="https://linkedin.com/in/archit2501" target="_blank">Connect</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0">&copy; 2025 Archit Jain. AI Resume Shortlisting Tool.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <a href="https://github.com/archit2501/resume-shortlisting-tool" 
+                       class="text-light me-3" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:architjain2501@gmail.com" class="text-light">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="static/web-script.js"></script>
+</body>
+</html>
